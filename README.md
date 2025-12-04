@@ -1,6 +1,8 @@
-- Color Palette
+### Color Palette
  Background: #1a1a2e
- Text: #626c79 (medium gray)
- Heading: #c5d0ec
- Accent: #599692 (pastel green)
- Hightlighted Text: #dfe5ec (light gray)
+ Text: #a0a0a0
+ Heading: #FF1493;
+ Accent: #c5d0ec 
+ Hightlighted Text: #dfe5ec
+
+ ### Work log
