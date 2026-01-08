@@ -5,7 +5,7 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h4 {
     color: #FF1493;
 }
 
@@ -38,6 +38,13 @@ p, li {
     flex-direction: column;
 }
 
+#profile-photo {
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #right-column {
     flex-grow: 2;
 }
@@ -57,4 +64,24 @@ a {
 a:hover {
     color: #dfe5ec;
     text-decoration: underline;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-placeholder {
+    background-color: #a0a0a0;
+    height: 100px;
+}
+
+.image-placeholder:hover {
+    background-color: #FF1493;
+    opacity: .2;
+}
+
+#service-div-container {
+    display: flex;
+    flex-direction: column;
 }
