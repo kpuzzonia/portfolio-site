@@ -10,6 +10,8 @@
  * finalize color palette
  * style and add functionality to contact form
  * find and add social media icons
+ * make responsive
+ * update offerings
 
  ### 1/9/2026
  * Created contact form using basic HTML.
