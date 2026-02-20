@@ -31,11 +31,14 @@ p, li {
     justify-content: space-between;
     margin: 100px;
     gap: 250px;
+    align-items: flex-start;
 }
 
 #left-column {
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 100px;
 }
 
 #profile-photo {
