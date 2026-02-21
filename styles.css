@@ -55,6 +55,16 @@ p, li {
 
 #links a {
     text-transform: uppercase;
+    letter-spacing: .08em;
+    display: inline-block;
+    transition: color 0.3s ease-out, font-weight 0.3s ease-out, transform 0.5s ease-out; 
+}
+
+#links a:hover {
+    color: #FF1493;
+    text-decoration: none;
+    font-weight: bold;
+    transform: translateX(5px);
 }
 
 #profile-photo {
@@ -66,6 +76,14 @@ p, li {
 
 #right-column {
     flex-grow: 2;
+}
+
+#skills, #portfolio, #services, #contact {
+    padding-top: 45px;
+}
+
+#right-column p {
+    line-height: 1.5;
 }
 
 ul {
