@@ -41,6 +41,22 @@ p, li {
     top: 80px;
 }
 
+#left-column h1 {
+    margin: 15px 0;
+}
+
+#left-column h2 {
+    margin: 0;
+}
+
+#tagline p {
+    margin: 40px 0 60px 0;
+}
+
+#links a {
+    text-transform: uppercase;
+}
+
 #profile-photo {
     width: 200px;
     border-radius: 100px;
