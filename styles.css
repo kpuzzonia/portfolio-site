@@ -82,6 +82,10 @@ p, li {
     padding-top: 45px;
 }
 
+#right-column h2 {
+    letter-spacing: .08em;
+}
+
 #right-column p {
     line-height: 1.5;
 }
