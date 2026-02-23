@@ -166,6 +166,12 @@ a:hover {
     padding-top: 10px;
 }
 
+#errorMessage {
+    display: none;
+    color:#cc0f78;
+    margin-top: 10px;
+}
+
 #contact button {
     background-color: #FF1493;
     color: #c5d0ec;
@@ -176,6 +182,6 @@ a:hover {
 }
 
 #contact button:hover {
-    background-color: #cc0f78;
+    background-color: #ff6b6b;
 }
 
