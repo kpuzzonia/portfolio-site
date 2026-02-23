@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+
+    box-sizing: border-box;
+}
 
 body{
     background-color: #1a1a2e;
@@ -131,9 +135,47 @@ a:hover {
     border: .1px solid #FF1493;
     border-radius: 10px;
     padding: 20px;
+    color: #c5d0ec;
+}
+ #contact label {
+    display: block;
+    margin-bottom: 8px;
+ }
+
+#contact input, #contact select, #contact textarea {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f0f23;
+    color: #c5d0ec;
+    border: 1px solid rgba(255, 20, 147, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+
+#contact textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#contact input:focus, #contact select:focus, #contact textarea:focus {
+    border: 1px solid #FF1493;
 }
 
 .form-div {
     padding-top: 10px;
+}
+
+#contact button {
+    background-color: #FF1493;
+    color: #c5d0ec;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    letter-spacing: .08em;
+}
+
+#contact button:hover {
+    background-color: #cc0f78;
 }
 
