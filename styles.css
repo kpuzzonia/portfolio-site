@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
-
     box-sizing: border-box;
 }
 
 body{
     background-color: #1a1a2e;
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden
 }
 
 h1, h2, h4 {
@@ -28,6 +28,10 @@ h3, form {
 p, li {
     color: #a0a0a0;
     font-size: 18px;
+}
+
+#mobileNav {
+    display: none;
 }
 
 #main-container {
@@ -183,5 +187,56 @@ a:hover {
 
 #contact button:hover {
     background-color: #ff6b6b;
+}
+
+@media (max-width: 850px) {
+    #links {
+        display: none;
+    }
+    #mobileNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+
+    #hamburgerButton {
+        background-color: #1a1a2e;
+        color:#FF1493;
+        font-size: 44px;
+        border: none;
+    }
+
+    #mobileNavLinks {
+        display: none;
+    }
+
+    #main-container {
+        flex-direction: column;
+        margin: 20px 15px;
+        gap: 20px;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    #left-column {
+        width: 100%;
+        position: unset;
+        text-align: center;
+        align-items: center;
+    }
+
+    #profile-photo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #contact form {
+        padding: 10px;
+    }
+
 }
 
