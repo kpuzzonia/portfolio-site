@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <nav id="mobile-nav"></nav>
     <div id="main-container">
         <div id="left-column">
             <div id="name">
@@ -20,7 +21,6 @@
             <div id="tagline">
                 <p>I make websites that are as beautiful as they are functional.</p>
             </div>
-            
             
             <div id="links">
                 <ul>
@@ -104,11 +104,11 @@
                 <form id="contactForm">
                     <div class="form-div">
                         <label for="fullName" class="form-label">Full Name:</label><br>
-                        <input type="text" id="fullName" name="fullName" required><br>
+                        <input type="text" id="fullName" name="fullName"><br>
                     </div>
                     <div class="form-div">
                         <label for="emailAddress">Email:</label><br>
-                        <input type="email" id="emailAddress" name="emailAddress" required><br>
+                        <input type="email" id="emailAddress" name="emailAddress"><br>
                     </div>
                     <div class="form-div">
                         <label for="service">Service:</label><br>
@@ -121,11 +121,12 @@
                     </div>
                     <div class="form-div">
                         <label for="message">Message:</label><br>
-                        <textarea id="message" name="message" required>
+                        <textarea id="message" name="message">
                         </textarea><br>
                     </div>
                     <div class="formErrorMessage">
                         <p id="errorMessage"></p>
+                        <p id="successMessage"></p>
                     </div>
                     <div class="form-div">
                         <button type="submit">SUBMIT</button>

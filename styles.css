@@ -166,7 +166,7 @@ a:hover {
     padding-top: 10px;
 }
 
-#errorMessage {
+#errorMessage, #successMessage {
     display: none;
     color:#cc0f78;
     margin-top: 10px;
